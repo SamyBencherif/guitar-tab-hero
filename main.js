@@ -62,7 +62,6 @@ function chord_solver()
 
 		if (match)
 		{
-			console.log(ns, "matched with", offsets)
 			document.querySelector("#chord").style.display = "block";
 			document.querySelector("#chord .value").innerText = notes[gmod(last, notes.length)] + chord;
 			break;
