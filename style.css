@@ -3,6 +3,7 @@ body
 {
 	font-family: sans-serif;
 	font-weight: 600;
+	user-select: none;
 }
 
 
@@ -25,7 +26,7 @@ input
 
 .note
 {
-	margin-right: 42px;
+	margin-right: 43px;
 	margin-bottom: 3px;
 }
 
@@ -56,22 +57,22 @@ input
 
 #string5
 {
-	left: 279px;
+	left: 283px;
 	position: absolute;
 }
 
 #string6
 {
-	left: 337px;
+	left: 343px;
 	position: absolute;
 }
 
 #guitar 
 {
 	margin-left: 44px;
+	margin-top: 28px;
 	width: 300px;
 	float: left;
-	display: inline-block;
 }
 
 .fret
@@ -111,6 +112,8 @@ input
 	width: 30px;
 	height: 30px;
 	border-radius: 15px;
+
+	display: none;
 	
 	color: white;
 	background: red;
@@ -127,4 +130,18 @@ input
 {
 	position: relative;
 	top: 6px;
+}
+
+#chord
+{
+	border: 3px solid black;
+	margin: 50px;
+	padding: 20px;
+	border-radius: 10px;
+	display: none;
+}
+
+#chord .title
+{
+	font-size: 24px;
 }
