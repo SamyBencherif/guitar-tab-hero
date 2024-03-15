@@ -1,0 +1,130 @@
+
+body
+{
+	font-family: sans-serif;
+	font-weight: 600;
+}
+
+
+input
+{
+	border: 3px solid black;
+}
+
+#notes
+{
+	margin-left: 44px;
+	margin-bottom: 25px;
+}
+
+#openclose
+{
+	margin-left: 44px;
+	margin-bottom: 10px;
+}
+
+.note
+{
+	margin-right: 42px;
+	margin-bottom: 3px;
+}
+
+/* Sometimes there is a # at the end of the note name, but we need the position to be unaffected */
+#string1
+{
+	left: 52px;
+	position: absolute;
+}
+
+#string2
+{
+	left: 109px;
+	position: absolute;
+}
+
+#string3
+{
+	left: 166px;
+	position: absolute;
+}
+
+#string4
+{
+	left: 222px;
+	position: absolute;
+}
+
+#string5
+{
+	left: 279px;
+	position: absolute;
+}
+
+#string6
+{
+	left: 337px;
+	position: absolute;
+}
+
+#guitar 
+{
+	margin-left: 44px;
+	width: 300px;
+	float: left;
+	display: inline-block;
+}
+
+.fret
+{
+	border-top: 3px solid black;
+	height: 70px;
+}
+
+.fret-last
+{
+	border-bottom: 3px solid black;
+}
+
+.bar
+{
+	width: 3px;
+	margin-right: 51.9px;
+	background: black;
+	height: 100%;
+	display: inline-block;
+}
+
+.bar-last
+{
+	margin-right: 0px;
+}
+
+#config
+{
+	margin-left: 20px;
+	display: inline-block;
+	height: 400px;
+}
+
+.fdot
+{
+	width: 30px;
+	height: 30px;
+	border-radius: 15px;
+	
+	color: white;
+	background: red;
+	
+	text-align: center;
+	
+	position: absolute;
+	
+	left: 40px;
+	top: 127px;
+}
+
+.fdot-text
+{
+	position: relative;
+	top: 6px;
+}
